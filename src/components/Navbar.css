@@ -1,0 +1,42 @@
+.navbar {
+  max-width: 101%;
+  min-height: 80px;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+
+.links input {
+  max-width: 500px;
+  outline: none;
+  border: 1px solid white;
+  min-height: 20px;
+  border-radius: 20px;
+  background: transparent;
+  padding: 10px;
+  color: white;
+}
+
+
+
+.links input::placeholder{
+  text-align: left;
+  font-size: 15px;
+}
+
+
